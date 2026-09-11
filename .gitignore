@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ChromaDB local database
+chroma_db/
+
+# SQLite checkpoint database
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime conversation memory
+conversation_memory.json
+
+# Runtime API logs
+api_logs.jsonl
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
